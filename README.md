@@ -1,4 +1,4 @@
-## Opis ogólny 
+## Opis ogólny
 
 Nazwa Aplikacji: **roomTime**
 
