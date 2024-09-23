@@ -1,6 +1,6 @@
 ## Opis ogólny 
 
-<p style="font-family:comic-sans">Nazwa Aplikacji: **roomTime**
+<p style="font-family:comic-sans">Nazwa Aplikacji: **roomTime**</p>
 
 Języki Programowania: **C#** oraz **XAML**
 
@@ -22,4 +22,4 @@ Aplikacja pobiera zdjęcie planu lekcji wysłanego przez ucznia i czyta je używ
 
 ***Interakcja z użytkownikiem:***
 
-Przesyłanie zdjęcia, edycja planu lekcji, ustawienie czasu po lekcji do wysłania powiadomienia, alternatywa dla wysyłania zdjęcia planu czyli wpisanie planu w tabelę</p>
+Przesyłanie zdjęcia, edycja planu lekcji, ustawienie czasu po lekcji do wysłania powiadomienia, alternatywa dla wysyłania zdjęcia planu czyli wpisanie planu w tabelę
