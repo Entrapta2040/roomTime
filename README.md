@@ -1,6 +1,6 @@
 ## Opis ogólny 
 
-<p style="font-family:comic-sans">Nazwa Aplikacji: **roomTime**</p>
+Nazwa Aplikacji: **roomTime**
 
 Języki Programowania: **C#** oraz **XAML**
 
