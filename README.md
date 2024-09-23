@@ -1,25 +1,25 @@
-## Opis ogólny 
+## Opis ogÃ³lny 
 
-Nazwa Aplikacji: **roomTime**
+<p style="font-family:comic-sans">Nazwa Aplikacji: **roomTime**
 
-Jêzyki Programowania: **C#** oraz **XAML**
+JÄ™zyki Programowania: **C#** oraz **XAML**
 
-Platforma: Visual Studio dok³adniej **.Net MAUI**
+Platforma: Visual Studio dokÅ‚adniej **.Net MAUI**
 
 Technologie: **Tesseract OCR** *(Optical Character Recognition)*
 
-Moje Trello z projektem mo¿na znaleŸæ [tutaj](https://trello.com/b/Xu2Jadei/roomtime).
+Moje Trello z projektem moÅ¼na znaleÅºÄ‡ [tutaj](https://trello.com/b/Xu2Jadei/roomtime).
 
 
 ## Opis
 ***Cel aplikacji:***
 
-Optymalizacja czasu, który zajmuje uczniom na dowiedzienie siê, w której sali odbêdzie siê ich nastêpna lekcja.
+Optymalizacja czasu, ktÃ³ry zajmuje uczniom na dowiedzienie siÄ™, w ktÃ³rej sali odbÄ™dzie siÄ™ ich nastÄ™pna lekcja.
 
-***Jak dzia³a zasada:***
+***Jak dziaÅ‚a zasada:***
 
-Aplikacja pobiera zdjêcie planu lekcji wys³anego przez ucznia i czyta je u¿ywaj¹c Tesseracta aby zamieniæ je na tekst, nastêpnie wysy³a powiadomienia *ustalony czas* po zakoñczeniu lekcji, w której sali i jaka lekcja teraz siê odbêdzie.
+Aplikacja pobiera zdjÄ™cie planu lekcji wysÅ‚anego przez ucznia i czyta je uÅ¼ywajÄ…c Tesseracta aby zamieniÄ‡ je na tekst, nastÄ™pnie wysyÅ‚a powiadomienia *ustalony czas* po zakoÅ„czeniu lekcji, w ktÃ³rej sali i jaka lekcja teraz siÄ™ odbÄ™dzie.
 
-***Interakcja z u¿ytkownikiem:***
+***Interakcja z uÅ¼ytkownikiem:***
 
-Przesy³anie zdjêcia, edycja planu lekcji, ustawienie czasu po lekcji do wys³ania powiadomienia, alternatywa dla wysy³ania zdjêcia planu czyli wpisanie planu w tabelê
+PrzesyÅ‚anie zdjÄ™cia, edycja planu lekcji, ustawienie czasu po lekcji do wysÅ‚ania powiadomienia, alternatywa dla wysyÅ‚ania zdjÄ™cia planu czyli wpisanie planu w tabelÄ™</p>
