@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="roomTime.Platforms.CreatePlanLekcjiPage"
+             BackgroundColor="#1E1E1E"
+             Title="roomTime"
+             Shell.NavBarIsVisible="False" >
+    <StackLayout
+        VerticalOptions="CenterAndExpand"
+        HorizontalOptions="CenterAndExpand"
+        Spacing="20"
+        Padding="30,0" >
+        <Button Text="Dodaj Plan Lekcji Zdjęciem"
+            WidthRequest="200"
+            HeightRequest="60"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            Clicked="GoToPhotoPL"/>
+        <Label Text="lub"
+            FontSize="20"
+            MinimumHeightRequest="38"
+            MinimumWidthRequest="38"
+            Padding="14,10"
+            TextColor="White"
+            VerticalOptions="Center"
+            HorizontalOptions="Center" />
+        <Button Text="Dodaj Plan Lekcji formularzem"
+            WidthRequest="200"
+            HeightRequest="60"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            Clicked="GoToFormPL"/>
+    </StackLayout>
+</ContentPage>

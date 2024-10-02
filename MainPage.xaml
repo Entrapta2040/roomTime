@@ -2,31 +2,34 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="roomTime.MainPage"
-             Title="roomTime">
-
+             BackgroundColor="#1E1E1E"
+             Title="roomTime"
+             Shell.NavBarIsVisible="False" >
     <StackLayout
-            VerticalOptions="CenterAndExpand"
-            HorizontalOptions="CenterAndExpand"
-            Spacing="20"
-            Padding="30,0" >
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                Spacing="20"
+                Padding="30,0" >
         <Button Text="Dodaj Plan Lekcji"
-                WidthRequest="200"
-                HeightRequest="60"
-                HorizontalOptions="Center"
-                VerticalOptions="Center"
-                Clicked="GoToCreatePL"/>
+                    WidthRequest="200"
+                    HeightRequest="60"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Clicked="GoToCreatePL"/>
         <Label Text="lub"
-                FontSize="18"
-                HeightRequest="42"
-                TextColor="White"
-                BackgroundColor="#512BD4"
-                VerticalOptions="Center"
-                HorizontalOptions="Center" />
+                    FontSize="20"
+                    MinimumHeightRequest="38"
+                    MinimumWidthRequest="38"
+                    Padding="14,10"
+                    TextColor="White"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center" />
         <Button Text="Edytuj Plan Lekcji"
-                WidthRequest="200"
-                HeightRequest="60"
-                HorizontalOptions="Center"
-                VerticalOptions="Center"
-                Clicked="GoToEditPL"/>
+                    WidthRequest="200"
+                    HeightRequest="60"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Clicked="GoToEditPL"/>
     </StackLayout>
 
+</ContentPage>

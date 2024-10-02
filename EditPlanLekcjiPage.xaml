@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="roomTime.EditPlanLekcjiPage"
+             BackgroundColor="#1E1E1E"
+             Shell.NavBarIsVisible="False" >
+    <StackLayout>
+        <Label 
+            Text="Welcome to the Edit Plan Lekcji Page!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button Text="go back"
+            WidthRequest="200"
+            HeightRequest="60"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            Clicked="OnGoBackClicked"/>
+    </StackLayout>
+</ContentPage>
