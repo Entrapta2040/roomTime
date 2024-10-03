@@ -24,8 +24,8 @@
             TextColor="White"
             VerticalOptions="Center"
             HorizontalOptions="Center" />
-        <Button Text="Dodaj Plan Lekcji formularzem"
-            WidthRequest="200"
+        <Button Text="Dodaj Plan Lekcji Formularzem"
+            MinimumWidthRequest="200"
             HeightRequest="60"
             HorizontalOptions="Center"
             VerticalOptions="Center"
