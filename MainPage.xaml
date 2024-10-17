@@ -15,7 +15,7 @@
                     HeightRequest="60"
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
-                    Clicked="GoToCreatePL"/>
+                    Clicked="GoToFormPL"/>
         <Label Text="lub"
                     FontSize="20"
                     MinimumHeightRequest="38"

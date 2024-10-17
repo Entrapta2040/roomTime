@@ -72,25 +72,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="CreatePlanLekcjiPage.xaml.cs">
-	    <DependentUpon>CreatePlanLekcjiPage.xaml</DependentUpon>
-	  </Compile>
-	  <Compile Update="ReadPhotoPage.xaml.cs">
-	    <DependentUpon>ReadPhotoPage.xaml</DependentUpon>
-	  </Compile>
-	</ItemGroup>
-
-	<ItemGroup>
 	  <MauiXaml Update="CreateFormPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="CreatePlanLekcjiPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	  <MauiXaml Update="EditPlanLekcjiPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="ReadPhotoPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

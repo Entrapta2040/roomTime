@@ -1,4 +1,4 @@
-﻿using roomTime.Platforms;
+﻿using roomTime;
 using Microsoft.Maui.Controls;
 
 namespace roomTime
@@ -10,9 +10,9 @@ namespace roomTime
             InitializeComponent();
         }
 
-        private async void GoToCreatePL(object sender, EventArgs e)
+        private async void GoToFormPL(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new CreatePlanLekcjiPage());
+            await Navigation.PushAsync(new CreateFormPage());
         }
         private async void GoToEditPL(object sender, EventArgs e)
         {

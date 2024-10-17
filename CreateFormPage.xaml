@@ -4,15 +4,38 @@
              x:Class="roomTime.CreateFormPage"
              BackgroundColor="#1E1E1E"
              Shell.NavBarIsVisible="False" >
-    <StackLayout>
-        <Label Text="Welcome to Create Form Page!" 
-               VerticalOptions="Center" 
-               HorizontalOptions="Center" />
-        <Button Text="go back"
-            WidthRequest="200"
-            HeightRequest="60"
-            HorizontalOptions="Center"
-            VerticalOptions="Center"
-            Clicked="OnGoBackClicked"/>
-    </StackLayout>
+    <VerticalStackLayout
+            Spacing="20"
+            Padding="30,0">
+        <Label 
+            Text="Wybierz liczbę wierszy (maksymalnej liczby lekcji) i kolumn (dni lekcyjne):"
+            FontSize="Medium" 
+            TextColor = "White"
+            />
+
+        <Entry x:Name="RowEntry" 
+               Placeholder="Max liczba lekcji" 
+               Keyboard="Numeric" 
+               TextColor = "White"
+               HorizontalOptions="FillAndExpand" />
+
+        <Entry x:Name="ColumnEntry" 
+               Placeholder="Dni lekcyjne" 
+               Keyboard="Numeric" 
+               TextColor = "White"
+               HorizontalOptions="FillAndExpand" />
+
+        <Button Text="Create Table" 
+                Clicked="OnCreateTableClicked" 
+                HorizontalOptions="Center" />
+        <Grid x:Name="DynamicGrid"
+              Padding="10"
+              RowSpacing="5"
+              ColumnSpacing="5" />
+        <Button x:Name="ConfirmButton"
+                Text="Confirm"
+                Clicked="OnConfirmButtonClicked"
+                HorizontalOptions="Center"
+                IsVisible="False" />
+    </VerticalStackLayout>
 </ContentPage>
